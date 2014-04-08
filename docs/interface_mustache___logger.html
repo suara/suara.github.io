@@ -1,0 +1,528 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Suara: Mustache_Logger接口 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Suara
+   &#160;<span id="projectnumber">2.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>结构体</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>结构体</span></a></li>
+      <li><a href="classes.html"><span>结构体索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>成员变量</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>结构体</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-attribs">成员变量</a>  </div>
+  <div class="headertitle">
+<div class="title">Mustache_Logger接口 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+类 Mustache_Logger 继承关系图:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="interface_mustache___logger.png" usemap="#Mustache_Logger_map" alt=""/>
+  <map id="Mustache_Logger_map" name="Mustache_Logger_map">
+<area href="class_mustache___logger___abstract_logger.html" alt="Mustache_Logger_AbstractLogger" shape="rect" coords="0,56,208,80"/>
+<area href="class_mustache___logger___stream_logger.html" alt="Mustache_Logger_StreamLogger" shape="rect" coords="0,112,208,136"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:afb086b1f95759b162cd55ba2b6fa38ae"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_mustache___logger.html#afb086b1f95759b162cd55ba2b6fa38ae">emergency</a> ($message, array $context=array())</td></tr>
+<tr class="separator:afb086b1f95759b162cd55ba2b6fa38ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e65637c3b36b015b513fb9267ae375f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_mustache___logger.html#a4e65637c3b36b015b513fb9267ae375f">alert</a> ($message, array $context=array())</td></tr>
+<tr class="separator:a4e65637c3b36b015b513fb9267ae375f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14ebc4ac3658a6054caade4a30587cd3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_mustache___logger.html#a14ebc4ac3658a6054caade4a30587cd3">critical</a> ($message, array $context=array())</td></tr>
+<tr class="separator:a14ebc4ac3658a6054caade4a30587cd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cd5faee8fb5d0ddc73bca6d6bde78a1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_mustache___logger.html#a1cd5faee8fb5d0ddc73bca6d6bde78a1">error</a> ($message, array $context=array())</td></tr>
+<tr class="separator:a1cd5faee8fb5d0ddc73bca6d6bde78a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9f94dcb1a687e36bc7f838a8801feec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_mustache___logger.html#aa9f94dcb1a687e36bc7f838a8801feec">warning</a> ($message, array $context=array())</td></tr>
+<tr class="separator:aa9f94dcb1a687e36bc7f838a8801feec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0f18fe657e53af89a1edca20cab8089"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_mustache___logger.html#ae0f18fe657e53af89a1edca20cab8089">notice</a> ($message, array $context=array())</td></tr>
+<tr class="separator:ae0f18fe657e53af89a1edca20cab8089"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a080c4e103f83f253391f134962c3bb0f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_mustache___logger.html#a080c4e103f83f253391f134962c3bb0f">info</a> ($message, array $context=array())</td></tr>
+<tr class="separator:a080c4e103f83f253391f134962c3bb0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f1fbd09fa3d7fc7d6564fb7c6dfc87a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_mustache___logger.html#a9f1fbd09fa3d7fc7d6564fb7c6dfc87a">debug</a> ($message, array $context=array())</td></tr>
+<tr class="separator:a9f1fbd09fa3d7fc7d6564fb7c6dfc87a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a142f6bf4e86dc16e0bae4cff1de0dd44"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_mustache___logger.html#a142f6bf4e86dc16e0bae4cff1de0dd44">log</a> ($level, $message, array $context=array())</td></tr>
+<tr class="separator:a142f6bf4e86dc16e0bae4cff1de0dd44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+成员变量</h2></td></tr>
+<tr class="memitem:ad93131122361f85c70dab2636fe863a5"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_mustache___logger.html#ad93131122361f85c70dab2636fe863a5">EMERGENCY</a> = '<a class="el" href="interface_mustache___logger.html#afb086b1f95759b162cd55ba2b6fa38ae">emergency</a>'</td></tr>
+<tr class="separator:ad93131122361f85c70dab2636fe863a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a037a7f6e892e6adb07c2aa099fbaf69d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a037a7f6e892e6adb07c2aa099fbaf69d"></a>
+const&#160;</td><td class="memItemRight" valign="bottom"><b>ALERT</b> = '<a class="el" href="interface_mustache___logger.html#a4e65637c3b36b015b513fb9267ae375f">alert</a>'</td></tr>
+<tr class="separator:a037a7f6e892e6adb07c2aa099fbaf69d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e924d1434e5b36fdc72dd03b1a8f744"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5e924d1434e5b36fdc72dd03b1a8f744"></a>
+const&#160;</td><td class="memItemRight" valign="bottom"><b>CRITICAL</b> = '<a class="el" href="interface_mustache___logger.html#a14ebc4ac3658a6054caade4a30587cd3">critical</a>'</td></tr>
+<tr class="separator:a5e924d1434e5b36fdc72dd03b1a8f744"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f79d7b73cfb40bb7855d4260393cc0f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7f79d7b73cfb40bb7855d4260393cc0f"></a>
+const&#160;</td><td class="memItemRight" valign="bottom"><b>ERROR</b> = '<a class="el" href="interface_mustache___logger.html#a1cd5faee8fb5d0ddc73bca6d6bde78a1">error</a>'</td></tr>
+<tr class="separator:a7f79d7b73cfb40bb7855d4260393cc0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0c7ccd2f8b92a760391d21d0ec7b339"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad0c7ccd2f8b92a760391d21d0ec7b339"></a>
+const&#160;</td><td class="memItemRight" valign="bottom"><b>WARNING</b> = '<a class="el" href="interface_mustache___logger.html#aa9f94dcb1a687e36bc7f838a8801feec">warning</a>'</td></tr>
+<tr class="separator:ad0c7ccd2f8b92a760391d21d0ec7b339"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b32ca69140ca26e6614dddf004ae3d9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0b32ca69140ca26e6614dddf004ae3d9"></a>
+const&#160;</td><td class="memItemRight" valign="bottom"><b>NOTICE</b> = '<a class="el" href="interface_mustache___logger.html#ae0f18fe657e53af89a1edca20cab8089">notice</a>'</td></tr>
+<tr class="separator:a0b32ca69140ca26e6614dddf004ae3d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2d1bd27ecbe33ecaadb558404e9c669"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af2d1bd27ecbe33ecaadb558404e9c669"></a>
+const&#160;</td><td class="memItemRight" valign="bottom"><b>INFO</b> = '<a class="el" href="interface_mustache___logger.html#a080c4e103f83f253391f134962c3bb0f">info</a>'</td></tr>
+<tr class="separator:af2d1bd27ecbe33ecaadb558404e9c669"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a758c150b67e476ecf77478f16b387c61"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a758c150b67e476ecf77478f16b387c61"></a>
+const&#160;</td><td class="memItemRight" valign="bottom"><b>DEBUG</b> = '<a class="el" href="interface_mustache___logger.html#a9f1fbd09fa3d7fc7d6564fb7c6dfc87a">debug</a>'</td></tr>
+<tr class="separator:a758c150b67e476ecf77478f16b387c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>Describes a Mustache logger instance</p>
+<p>This is identical to the Psr.</p>
+<p>The message MUST be a string or object implementing __toString().</p>
+<p>The message MAY contain placeholders in the form: {foo} where foo will be replaced by the context data in key "foo".</p>
+<p>The context array can contain arbitrary data, the only assumption that can be made by implementors is that if an Exception instance is given to produce a stack trace, it MUST be in a key named "exception".</p>
+<p>See <a href="https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-3-logger-interface.md">https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-3-logger-interface.md</a> for the full interface specification. </p>
+</div><h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="a4e65637c3b36b015b513fb9267ae375f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">alert </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array&#160;</td>
+          <td class="paramname"><em>$context</em> = <code>array()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Action must be taken immediately.</p>
+<p>Example: Entire website down, database unavailable, etc. This should trigger the SMS alerts and wake you up.</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$message</td><td></td></tr>
+    <tr><td class="paramtype">array</td><td class="paramname">$context</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>null </dd></dl>
+
+<p>在 <a class="el" href="class_mustache___logger___abstract_logger.html#a4e65637c3b36b015b513fb9267ae375f">Mustache_Logger_AbstractLogger</a> 内被实现.</p>
+
+</div>
+</div>
+<a class="anchor" id="a14ebc4ac3658a6054caade4a30587cd3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">critical </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array&#160;</td>
+          <td class="paramname"><em>$context</em> = <code>array()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Critical conditions.</p>
+<p>Example: Application component unavailable, unexpected exception.</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$message</td><td></td></tr>
+    <tr><td class="paramtype">array</td><td class="paramname">$context</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>null </dd></dl>
+
+<p>在 <a class="el" href="class_mustache___logger___abstract_logger.html#a14ebc4ac3658a6054caade4a30587cd3">Mustache_Logger_AbstractLogger</a> 内被实现.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9f1fbd09fa3d7fc7d6564fb7c6dfc87a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">debug </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array&#160;</td>
+          <td class="paramname"><em>$context</em> = <code>array()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Detailed debug information.</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$message</td><td></td></tr>
+    <tr><td class="paramtype">array</td><td class="paramname">$context</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>null </dd></dl>
+
+<p>在 <a class="el" href="class_mustache___logger___abstract_logger.html#a9f1fbd09fa3d7fc7d6564fb7c6dfc87a">Mustache_Logger_AbstractLogger</a> 内被实现.</p>
+
+</div>
+</div>
+<a class="anchor" id="afb086b1f95759b162cd55ba2b6fa38ae"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">emergency </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array&#160;</td>
+          <td class="paramname"><em>$context</em> = <code>array()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>System is unusable.</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$message</td><td></td></tr>
+    <tr><td class="paramtype">array</td><td class="paramname">$context</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>null </dd></dl>
+
+<p>在 <a class="el" href="class_mustache___logger___abstract_logger.html#afb086b1f95759b162cd55ba2b6fa38ae">Mustache_Logger_AbstractLogger</a> 内被实现.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1cd5faee8fb5d0ddc73bca6d6bde78a1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">error </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array&#160;</td>
+          <td class="paramname"><em>$context</em> = <code>array()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Runtime errors that do not require immediate action but should typically be logged and monitored.</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$message</td><td></td></tr>
+    <tr><td class="paramtype">array</td><td class="paramname">$context</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>null </dd></dl>
+
+<p>在 <a class="el" href="class_mustache___logger___abstract_logger.html#a1cd5faee8fb5d0ddc73bca6d6bde78a1">Mustache_Logger_AbstractLogger</a> 内被实现.</p>
+
+</div>
+</div>
+<a class="anchor" id="a080c4e103f83f253391f134962c3bb0f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">info </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array&#160;</td>
+          <td class="paramname"><em>$context</em> = <code>array()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Interesting events.</p>
+<p>Example: User logs in, SQL logs.</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$message</td><td></td></tr>
+    <tr><td class="paramtype">array</td><td class="paramname">$context</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>null </dd></dl>
+
+<p>在 <a class="el" href="class_mustache___logger___abstract_logger.html#a080c4e103f83f253391f134962c3bb0f">Mustache_Logger_AbstractLogger</a> 内被实现.</p>
+
+</div>
+</div>
+<a class="anchor" id="a142f6bf4e86dc16e0bae4cff1de0dd44"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">log </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array&#160;</td>
+          <td class="paramname"><em>$context</em> = <code>array()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Logs with an arbitrary level.</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">mixed</td><td class="paramname">$level</td><td></td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$message</td><td></td></tr>
+    <tr><td class="paramtype">array</td><td class="paramname">$context</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>null </dd></dl>
+
+<p>在 <a class="el" href="class_mustache___logger___stream_logger.html#a142f6bf4e86dc16e0bae4cff1de0dd44">Mustache_Logger_StreamLogger</a> 内被实现.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae0f18fe657e53af89a1edca20cab8089"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">notice </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array&#160;</td>
+          <td class="paramname"><em>$context</em> = <code>array()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Normal but significant events.</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$message</td><td></td></tr>
+    <tr><td class="paramtype">array</td><td class="paramname">$context</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>null </dd></dl>
+
+<p>在 <a class="el" href="class_mustache___logger___abstract_logger.html#ae0f18fe657e53af89a1edca20cab8089">Mustache_Logger_AbstractLogger</a> 内被实现.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa9f94dcb1a687e36bc7f838a8801feec"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">warning </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array&#160;</td>
+          <td class="paramname"><em>$context</em> = <code>array()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Exceptional occurrences that are not errors.</p>
+<p>Example: Use of deprecated APIs, poor use of an API, undesirable things that are not necessarily wrong.</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$message</td><td></td></tr>
+    <tr><td class="paramtype">array</td><td class="paramname">$context</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>null </dd></dl>
+
+<p>在 <a class="el" href="class_mustache___logger___abstract_logger.html#aa9f94dcb1a687e36bc7f838a8801feec">Mustache_Logger_AbstractLogger</a> 内被实现.</p>
+
+</div>
+</div>
+<h2 class="groupheader">结构体成员变量说明</h2>
+<a class="anchor" id="ad93131122361f85c70dab2636fe863a5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const EMERGENCY = '<a class="el" href="interface_mustache___logger.html#afb086b1f95759b162cd55ba2b6fa38ae">emergency</a>'</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Psr compatible log levels </p>
+
+</div>
+</div>
+<hr/>该接口的文档由以下文件生成:<ul>
+<li>/home/htdocs/plu/suara/suara/libs/View/Engine/Mustache/Logger.php</li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+生成于 2013年 十二月 13日 星期五 11:47:44 , 为 Suara使用  &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.5
+</small></address>
+</body>
+</html>
